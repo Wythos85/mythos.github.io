@@ -1,5 +1,5 @@
 <?php
-  $site = htmlspecialchars($_POST["site"]);
-  $image  = htmlspecialchars($_POST["image"]);
+  $site = htmlspecialchars($_GET["site"]);
+  $image  = htmlspecialchars($_GET["image"]);
   echo  $site, " ", $image;
 ?>
