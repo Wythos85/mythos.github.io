@@ -17,5 +17,6 @@
     Website URL: $site\n
     Image URL: $image";
     mail($to,$subject,$message,$headers);
+    header('Location: contact-form-thanks.html');
   }
 ?>
